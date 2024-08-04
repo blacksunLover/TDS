@@ -1,0 +1,8 @@
+while wait () do
+local args = {
+    [1] = "Voting",
+    [2] = "Skip"
+}
+
+game:GetService("ReplicatedStorage").RemoteFunction:InvokeServer(unpack(args))
+end
